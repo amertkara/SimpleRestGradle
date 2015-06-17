@@ -1,11 +1,6 @@
-plugins {
-  id "com.bmuschko.tomcat" version "2.2.2"
-}
-
 apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'war'
-apply plugin: 'com.bmuschko.tomcat'
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.4'
@@ -13,17 +8,15 @@ task wrapper(type: Wrapper) {
 
 repositories {
 	maven {
-		url "http://repo1.maven.org/maven2/"
+		url 'http://repo1.maven.org/maven2/'
 	}
 	mavenCentral()
 }
 
 dependencies {
+	compile 'org.neo4j:neo4j:2.2.2'
+	providedCompile 'javax.servlet:servlet-api:3.+'
 	compile group: 'org.glassfish.jersey.core', name: 'jersey-common', version: '2.+'
 	compile group: 'org.glassfish.jersey.core', name: 'jersey-server', version: '2.+'
 	compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.+'
-	def tomcatVersion = '7.0.59'
-    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
-           "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
-           "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
 }

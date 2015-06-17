@@ -18,6 +18,10 @@
 		<error-code>404</error-code>
 		<location>/404.html</location>
 	</error-page>
+
+	<listener>
+		<listener-class>com.amertkara.simplerest.init.ServletContextClass</listener-class>
+	</listener>
 	
 	<servlet>
 	 <servlet-name>Jersey REST Service</servlet-name>

@@ -13,6 +13,6 @@ public class Product {
   @Path("{abc}")
   public Response getProductbyId(
 		  @DefaultValue("3") @PathParam("abc") String productID ) {
-	return Response.status(200).entity("Hello Jersey " + productID).build();
+	return Response.status(200).entity("Hello Jerseyy " + productID).build();
   }
 }

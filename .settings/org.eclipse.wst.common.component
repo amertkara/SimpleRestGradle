@@ -4,6 +4,9 @@
 		<property name="context-root" value="SimpleRESTGradle"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/2.2.2/e4373f4fb40d66f1d8eec52805742b9ca7c97407/neo4j-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.18/e5f62d6868cadcb09165ad278ffee3e475e52b39/jersey-common-2.18.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -11,6 +14,30 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.18/313619a576f1c3988a937dfcdcfe88a901c34233/jersey-container-servlet-core-2.18.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/2.2.2/81e6a053e4fec1a14f9ad84c9c0e071bececd460/neo4j-kernel-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/2.2.2/d8baae79d4d1d9ed537d9ca9621102f10f35db95/neo4j-lucene-index-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/2.2.2/22ef25767b51fe89f5c8ffa1ed78f88ea5823f06/neo4j-graph-algo-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/2.2.2/db4de72d15d2f57aad3a096f22d955fe8ba4c9c8/neo4j-udc-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/2.2.2/64cd24ea590edce221de575b4c727b4e21c19003/neo4j-graph-matching-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/2.2.2/32cb06763f513dcd3636c09cd091b30a1ec9cf72/neo4j-cypher-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-jmx/2.2.2/75943effa1503aa1a95f95a51c83b8176c5e0426/neo4j-jmx-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check/2.2.2/1c91af6d5100972e89ed88948d6745cdd5984504/neo4j-consistency-check-2.2.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar">
@@ -43,6 +70,45 @@
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-primitive-collections/2.2.2/567ddb9e7fc04f8022b68f1b67075bf7e5f20fc3/neo4j-primitive-collections-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/2.2.2/341d0da654901bf73c8301c47071851b51b8bb5/neo4j-io-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/2.2.2/b7037d80b8ff031aa855e346136eb6a122d3f679/neo4j-csv-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/3.6.2/9ec77e2507f9cc01756964c71d91efd8154a8c47/lucene-core-3.6.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.10.5/57ac67a6cf6fd591e235c62f8893438e8d10431d/scala-library-2.10.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.10.5/7392facb48876c67a89fcb086112b195f5f6bbc3/scala-reflect-2.10.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-1.9/2.0.4/93381595ffca5c8813eb65af32a910637dc0c408/neo4j-cypher-compiler-1.9-2.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.0/2.0.4/13277d9b4ae208ca1145210488502a80bbf20376/neo4j-cypher-compiler-2.0-2.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.1/2.1.8/e53518fb1770c2a8a8d2965488c7ae1365953ef7/neo4j-cypher-compiler-2.1-2.1.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.2/2.2.2/d2691840f2994097f6b16890c79531108a23cf49/neo4j-cypher-compiler-2.2-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.10/1.1.7/c20d486f11cc115c0df2ebc2aefb2773f9f9fb11/parboiled-scala_2.10-1.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4/d4b42ed76a166a81dbac613339eed3343be6bd2d/concurrentlinkedhashmap-lru-1.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.4.0-b12/2556f5a40625911c4886329b527c5e34df357135/hk2-utils-2.4.0-b12.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -50,6 +116,12 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/2.2.2/ed7c0fc915989c0f158588b081c2f8a5e060c514/neo4j-unsafe-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/ekamert/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
