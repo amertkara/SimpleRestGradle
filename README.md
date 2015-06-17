@@ -1,4 +1,4 @@
-### Jersey REST Boilerplate (with Gradle) ###
+### Jersey 2.x REST Boilerplate (with Gradle) ###
 
 A Rest API boilerplate code with Jersey and build with Tomcat. Gradle tomcat plugin is activated (with tomcat 7) and the gradle properties assumes that you have Java 7 installed (you might need to change that).
 
